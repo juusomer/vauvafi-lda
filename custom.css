@@ -1,3 +1,7 @@
 .reveal {
     font-family: 'Georgia', serif;
 }
+
+.output_stderr {
+    background: none !important;
+}
