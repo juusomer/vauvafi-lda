@@ -1,7 +1,20 @@
-.reveal {
-    font-family: 'Georgia', serif;
+.slide-background {
+    background-color: #343F68 !important;
 }
 
-.output_stderr {
-    background: none !important;
+.text_cell_render,
+.input_prompt,
+.output_prompt,
+.output_text pre,
+h1,
+h2 {
+    color: #ff8551 !important;
+}
+
+.text_cell_render a {
+    color: lightgrey !important;
+}
+
+.reveal section img {
+    background: transparent;
 }
